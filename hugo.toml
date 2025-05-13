@@ -3,3 +3,21 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "PaperMod"
 publishDir = "docs"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "notes"
+    name = "Notes"
+    url = "/note/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
