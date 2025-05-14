@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://oboudry.github.io/notes/'
+languageCode = 'fr-CH'
+title = 'Mes Notes'
 theme = "PaperMod"
 publishDir = "docs"
 [taxonomies]
@@ -18,6 +18,12 @@ publishDir = "docs"
     name = "Notes"
     url = "/note/"
     weight = 2
+
+  [[menu.main]]
+    identifier = "iac"
+    name = "Infra as Code"
+    url = "/infra-as-code/"
+    weight = 3
 
   [[menu.main]]
     identifier = "tags"
