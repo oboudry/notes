@@ -81,6 +81,35 @@ If you use GitHub Actions for auto-deployment, see `.github/workflows/` for conf
 
 ---
 
+## 🔒 Prevent Committing Secrets with Gitleaks (Pre-commit Hook)
+
+To protect your repository from accidentally committing sensitive information (like API keys or passwords), you can use [gitleaks](https://github.com/gitleaks/gitleaks) as a pre-commit hook.
+
+### 1. Install Gitleaks
+
+Follow [gitleaks installation instructions](https://github.com/gitleaks/gitleaks#installation) for your OS (ensure `gitleaks` is available in your `PATH`).
+
+### 2. Enable the Pre-commit Hook
+
+Create a `.pre-commit-config.yaml` file at the root of your repository with the following content:
+
+```yaml
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.24.2
+    hooks:
+      - id: gitleaks
+```
+
+### 3. Install pre-commit and setup the hook
+
+```sh
+pip install pre-commit
+python -m pre_commit install
+```
+
+--- 
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
