@@ -3,19 +3,8 @@ title = 'Deploiement Cluster'
 date = 2022-03-28T14:26:26+02:00
 draft = false
 +++
-Déploiement d\'un cluster
 
-lundi, 28 mars 2022
-
-14:26
-
- 
-
- 
-
- 
-
-Kubespray (déploiement de cluster)
+## Kubespray (déploiement de cluster)
 
 <https://github.com/kubernetes-sigs/kubespray>
 
@@ -23,13 +12,12 @@ Kubespray (déploiement de cluster)
 
 Sur single-host-docker:
 
-- sudo mkdir /k8s-control
-
-- sudo addgroup k8s-control
-
-- sudo chown :k8s-control /k8s-control
-
-- sudo vi /etc/group\
+```sh
+sudo mkdir /k8s-control
+sudo addgroup k8s-control
+sudo chown :k8s-control /k8s-control
+sudo vi /etc/group\
+```
    
 
 > sudo:x:27:uinstaller,itmvp,olivier,xavier,antoine
