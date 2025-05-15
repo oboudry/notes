@@ -410,7 +410,7 @@ kubectl edit cm -n kube-system coredns
 ajout k8s-external \<domain\> après la section \"kubernetes
 cluster.local\"
 
-![](/images/infra-as-code/deploiement-cluster/media/image1.png){width="6.4375in"
+![](images/media/image1.png){width="6.4375in"
 height="6.03125in"}
 
  
@@ -535,7 +535,7 @@ cd rook/deploy/examples
 
 vim operator.yaml
 
-![](/images/infra-as-code/deploiement-cluster/media/image2.png){width="9.65625in"
+![](images/media/image2.png){width="9.65625in"
 height="1.7291666666666667in"}
 
  
@@ -773,7 +773,7 @@ cd flatcar-linux-update-operator
 definir la fenêtre de maintenance dans le fichier
 examples/deploy/update-operator.yaml
 
-![](/images/infra-as-code/deploiement-cluster/media/image3.png){width="6.25in"
+![](images/media/image3.png){width="6.25in"
 height="2.1770833333333335in"}
 
 kubectl kustomize examples/deploy \| kubectl apply -f-
@@ -1258,7 +1258,7 @@ upgrade-cluster.yml
 
  
 
-![](/images/infra-as-code/deploiement-cluster/media/image4.png){width="4.270833333333333in"
+![](images/media/image4.png){width="4.270833333333333in"
 height="2.1041666666666665in"}
 
  
@@ -1342,7 +1342,7 @@ Ajouter le context admin
 
 Vérifier que l\'ajout du cluster soit un succès
 
-![](/images/infra-as-code/deploiement-cluster/media/image5.png){width="6.21875in"
+![](images/media/image5.png){width="6.21875in"
 height="1.03125in"}
 
 ##  
@@ -1731,7 +1731,7 @@ operator unseal XXX
 
  
 
-![](/images/infra-as-code/deploiement-cluster/media/image6.png){width="14.385416666666666in"
+![](images/media/image6.png){width="14.385416666666666in"
 height="7.03125in"}
 
  
