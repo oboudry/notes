@@ -79,8 +79,9 @@ Your site will be updated at:
 
 ```sh
 hugo new divers/codes-barre-word.md
-pandoc "..\Impression de codes à barre dans Word.docx" -o codes-barre-word.md  --extract-media=images/codes-barre-word/
-mv images\codes-barre-word content\divers\images\codes-barre-word
+pandoc "..\Impression de codes à barre dans Word.docx" -o codes-barre-word.md  --extract-media=images/
+mkdir content\divers\codes-barre-word
+mv images content\divers\codes-barre-word\
 cat codes-barre-word.md >> content\divers\codes-barre-word.md
 rm codes-barre-word.md
 ```

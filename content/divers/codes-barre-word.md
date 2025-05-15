@@ -26,12 +26,12 @@ code barre
 ![Calibri (Corps) X Couger Copier de : Modification du mFk Lu---
 Basculer les codes de cham Policez.. PAragraphe\... BONJOUR Nouveau
 Accepter I commentaire
-](images/codes-barre-word/media/image1.png){width="5.59375in"
+](images/media/image1.png){width="5.59375in"
 height="4.875in"}
 
 Textes correspondants aux codes barre ci-dessus:
 
-![](images/codes-barre-word/media/image2.png){width="4.09375in"
+![](images/media/image2.png){width="4.09375in"
 height="1.3333333333333333in"}
 
  
