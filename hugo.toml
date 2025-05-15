@@ -16,7 +16,7 @@ publishDir = "docs"
   [[menu.main]]
     identifier = "iac"
     name = "Infra as Code"
-    url = "/infra-as-code/"
+    url = "/iac/"
     weight = 2
 
   [[menu.main]]
@@ -37,4 +37,4 @@ publishDir = "docs"
     url = "/tags/"
     weight = 10
 [params]
-  mainSections = ["infra-as-code", "sap", "divers"]
+  mainSections = ["iac", "sap", "divers"]
