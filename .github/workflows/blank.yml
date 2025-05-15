@@ -16,14 +16,20 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Debug before
+        run: ls -lah  # debug step to confirm files are present
+      - run: git status
+
       - name: Run Gitleaks (secret scanner)
         uses: gitleaks/gitleaks-action@v2
         with:
           report-format: sarif
           report-path: gitleaks.sarif
 
+      - name: Debug after
+        run: ls -lah  # debug step to confirm files are present
+
       - name: Upload SARIF report
-        if: ${{ hashFiles('gitleaks.sarif') != '' }}
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: gitleaks.sarif
