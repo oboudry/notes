@@ -32,9 +32,15 @@ publishDir = "docs"
     weight = 4
 
   [[menu.main]]
+    identifier = "divers"
+    name = "Divers"
+    url = "/divers/"
+    weight = 5
+
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
     weight = 10
 [params]
-  mainSections = ["note", "infra-as-code", "sap"]
+  mainSections = ["infra-as-code", "sap", "divers"]
