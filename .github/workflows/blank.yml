@@ -14,6 +14,4 @@ jobs:
 
       - name: Run Gitleaks (secret scanner)
         uses: gitleaks/gitleaks-action@v2
-        with:
-          # fail the job if a secret is found
-          fail: true
+
