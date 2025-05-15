@@ -29,7 +29,7 @@ URL du style:
 
  
 
-![](/images/sap/troubleshooting-odata/media/image1.png){width="17.71875in"
+![](images/media/image1.png){width="17.71875in"
 height="9.166666666666666in"}
 
  
@@ -44,7 +44,7 @@ Seule galère, trouver la syntaxe d'appel du service.
 
  
 
-![](/images/sap/troubleshooting-odata/media/image2.jpg){width="19.28125in"
+![](images/media/image2.jpg){width="19.28125in"
 height="12.5in"}
 
  
@@ -53,7 +53,7 @@ SEGW permet d'afficher les services ODATA (utiliser le bouton folder
 pour l'ouvrir), ici le service « POBulkSet » référencé dans l'URL
 ci-dessus :
 
-![](/images/sap/troubleshooting-odata/media/image3.jpg){width="5.21875in"
+![](images/media/image3.jpg){width="5.21875in"
 height="7.270833333333333in"}
 
  
@@ -62,7 +62,7 @@ La syntax pour le filtre je l'ai trouvé en débug près des messages
 d'erreur (je n'ai pas pris la copie d'écran au bon moment, plus d'erreur
 ici dessous).
 
-![](/images/sap/troubleshooting-odata/media/image4.jpg){width="19.166666666666668in"
+![](images/media/image4.jpg){width="19.166666666666668in"
 height="11.291666666666666in"}
 
  
@@ -78,7 +78,7 @@ Dernière option pour trouver l'URL :
 
 3.  Regarder les bindings utilisés
 
-![](/images/sap/troubleshooting-odata/media/image5.jpg){width="19.125in"
+![](images/media/image5.jpg){width="19.125in"
 height="9.46875in"}
 
  
@@ -102,7 +102,7 @@ utilis. Trace perform. (V2 unqt) BOUDRYO Trace don.ut. Préf. LIRI
 requête Journal et traces disponibles Ntv. jrn. err. Trace perform. (V2
 unqt) Trace don.ut. Fin validité trace acttve F Intég 24.0E.2022 Dern.
 mod. par BOUDRYO
-](/images/sap/troubleshooting-odata/media/image6.png){width="10.666666666666666in"
+](images/media/image6.png){width="10.666666666666666in"
 height="5.927083333333333in"}
 
  
@@ -112,14 +112,14 @@ height="5.927083333333333in"}
 
 2.  Visualiser le corps de la requête
 
-![](/images/sap/troubleshooting-odata/media/image7.png){width="17.25in"
+![](images/media/image7.png){width="17.25in"
 height="8.104166666666666in"}
 
  
 
 Récupérer les appels au backend dans le fichier Corps de requête (1)
 
-![](/images/sap/troubleshooting-odata/media/image8.png){width="12.572916666666666in"
+![](images/media/image8.png){width="12.572916666666666in"
 height="5.71875in"}
 
 Les rejouer dans la transaction /n/iwfnd/gw_client
@@ -130,7 +130,7 @@ Les rejouer dans la transaction /n/iwfnd/gw_client
 
  
 
-![](/images/sap/troubleshooting-odata/media/image9.png){width="18.03125in"
+![](images/media/image9.png){width="18.03125in"
 height="7.989583333333333in"}
 
  
