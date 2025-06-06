@@ -1,5 +1,5 @@
 +++
-title = 'Tronquer une variable d'environnement Windows'
+title = "Tronquer une variable d'environnement Windows"
 date = 2025-06-06T14:33:33+02:00
 draft = false
 tags = ["ms-dos", "environment", "variable"]
